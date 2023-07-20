@@ -31,3 +31,20 @@ for (let i = 0; i < list1.length; i++) {
 console.log('Users from List1 not in List2:', UsersList1);
 console.log('Users from List2 not in List1:', UsersList2);
 console.log('Users present in both List1 and List2:', intersectionUsers);
+
+//____________________________________________________OUTPUT__________________________________________________
+
+// Get a unique set of users from List1 which are not in List2
+
+Users from List1 not in List2: [ 'Arjun', 'Swapnil', 'Vishal' ]
+
+//Get a unique set of users from List2 which are not in List1
+
+Users from List2 not in List1: [ 'Laxman', 'Nitin', 'Gaurav' ]
+
+//Get a set of users who are present in in List1 and List2 both (intersection of list1 & list2)
+
+Users present in both List1 and List2: [ 'Adwait', 'Amit', 'Adnan' ]
+
+
+
